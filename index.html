@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentina y Alejandra</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbarr responsive-->
+    <header class="navbar">
+        <div class="logo">
+            <img src="https://i1.sndcdn.com/avatars-000328529373-bk39z6-t1080x1080.jpg" alt="Logo" id="siteLogo">
+        </div>
+        <ul class="navbar-menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotras">Nosotras</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contáctanos</a></li>
+        </ul>
+    </header>
+
+    <section id="inicio" class="section">
+        <h1 class="animated-title">Bienvenidos al Universo Gamer</h1>
+        <p class="center-text"><p>Explora un portafolio donde el diseño web interactivo y la programación de videojuegos se combinan para crear experiencias únicas y emocionantes. Aquí transformamos ideas en plataformas innovadoras que llevan tu marca al siguiente nivel. ¡La creatividad no tiene límites!</p>
+    </p>
+        <div class="hero-container">
+            <img src="https://cdn.dribbble.com/users/1646023/screenshots/6625629/gamer_800x600.gif" alt="Hero Gaming" class="hero-image">
+            <img src="https://i.pinimg.com/originals/02/8a/61/028a61c18282cbd0e6951ffec686ba57.gif" alt="Otro Gif" class="hero-image"> <!-- Agrega aquí tu nuevo GIF -->
+        </div>
+        <a href="https://wa.link/09q1dp" target="_blank" class="btn">Más Información</a>
+    </section>
+
+    
+    <section id="nosotras" class="section">
+        <h2 class="animated-title">Sobre Nosotras</h2>
+        <p class="center-text">Somos Valentina y Alejandra, Ingenieras informáticas con una fuerte pasión por la tecnología, el diseño creativo y el universo gamer. Transformamos ideas en proyectos innovadores para los amantes de los videojuegos.</p>
+        <div class="about-images">
+            <img src="https://i.pinimg.com/originals/ff/2d/88/ff2d8813f358a14507b8b4f029790fc8.gif" alt="Valentina">
+            <img src="https://steamuserimages-a.akamaihd.net/ugc/87100177916183025/21FEA2E472D4A913D169074BBE6D8780F48ADBB7/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="Alejandra">
+        </div>
+    </section>
+
+    <!-- Portafolio -->
+    <section id="portafolio" class="section">
+        <h2 class="animated-title">Portafolio</h2>
+        <form id="addProjectForm">
+            <input type="text" id="projectName" placeholder="Nombre del Proyecto" required>
+            <textarea id="projectDescription" placeholder="Descripción del Proyecto" required></textarea>
+            <input type="file" id="projectImage" accept="image/*" required>
+            <button type="submit" class="btn">Agregar Proyecto</button>
+        </form>
+        <div id="portfolioContainer" class="portfolio-container"></div>
+    </section>
+
+  <!-- Servicios -->
+<section id="servicios" class="section services">
+    <h2 class="animated-title">Servicios</h2>
+    <div class="services-container">
+        <div class="service-card">
+            <h3>Diseño Web</h3>
+            <p>Creación de sitios web dinámicos y visualmente atractivos, enfocados en mejorar la experiencia del usuario, ideales para proyectos relacionados con videojuegos y entretenimiento digital.</p>
+            <img src="https://i.pinimg.com/originals/eb/33/64/eb3364836900e5d9f854fdaa9e5f4c09.gif" alt="Diseño Web">
+        </div>
+        <div class="service-card">
+            <h3>Gamificación y Diseño de Experiencias</h3>
+            <p>Aplicamos principios de diseño de videojuegos en entornos no lúdicos para crear experiencias interactivas que mejoran la participación del usuario, ideales para plataformas de educación y entretenimiento.</p>
+            <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnhtYTd2NDZzMjUyZ3J4cnFzZ2VxdjRqbXl3MWdxbXRydnp0c2ZobCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gHiRWOaXGGHOY5w6f3/giphy.webp" alt="Marketing Digital">
+        </div>
+        <div class="service-card">
+            <h3>Desarrollo de Videojuegos Interactivos</h3>
+            <p>Creación de videojuegos interactivos y envolventes, con mecánicas innovadoras y gráficos impactantes, utilizando las últimas tecnologías de desarrollo para plataformas web y móviles.</p>
+            <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXhraDY1aG9wb2xhNXBpdzUweWo0N2l2cGdtM3UxbDlpZ2QzOXQ1bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.webp" alt="Identidad Visual">
+        </div>
+    </div>
+</section>
+
+<section id="social-media">
+    <h2 class="section-title">Redes Sociales</h2>
+    <div class="social-media-container">
+        <div class="social-media-links">
+            <p>Facebook:</p>
+            <p>Instagram:</p>
+            <p>TikTok:</p>
+        </div>
+        <div class="social-media-icons">
+            <a href="https://www.facebook.com/yourprofile" target="_blank">
+                <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGgxNTM5b24zcTBqNzBncjNzeDg3bm83dGE5aHRtY290cHdzamg3dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41lX2yEwhnD6QrLi/giphy.webp" alt="Facebook" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank">
+                <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWdlcHBwOHVkcWVtdjQ2NDhjMXVzb3Y1NTEwY3A3eTV5Mm9rbjZ4biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PTTY4h2VkBl7cfoBuT/giphy.webp" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://www.tiktok.com/@yourprofile" target="_blank">
+                <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmVqcGh3cjQ2eDgwYjlhMDhoZWN2Mzd5eGhmZzB3Mzh5bzYzOTd6ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jS2pgTIhhTuAqneaF0/giphy.webp" alt="TikTok" class="social-icon">
+            </a>
+        </div>
+    </div>
+</section>
+
+        <section id="contacto" class="section">
+            <h2 class="animated-title">¡Contáctanos!</h2>
+            <div class="contact-form-container">
+                <form class="contact-form" action="https://formspree.io/f/mrbgdlvq" method="POST">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="text" name="apellido" placeholder="Apellido" required>
+                    <input type="email" name="correo" placeholder="Correo" required>
+                    <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </section>
+        
+              
+    </section>
+<footer class="footer">
+    <p class="animated-title">© 2024 Valentina Arce y Alejandra Patiño</p>
+    <a href="https://api.whatsapp.com/send?phone=573023597453&text=Hola%2C%20quiero%20cotizar%20un%20proyecto%20de..." target="_blank" class="whatsapp-icon">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/016/716/480/small_2x/whatsapp-icon-free-png.png">
+    </a>
+</footer>
+    <script src="st.js"></script>
+</body>
+</html>
